@@ -1,10 +1,11 @@
 import React from "react";
 
+import DataFetch from "./HOOKS/useEffect/DataFetch";
+
 function App() {
   return (
     <div className="App">
-
-      <h1>Hellow Bangladesh</h1>
+      <DataFetch/>
     </div>
   );
 }
